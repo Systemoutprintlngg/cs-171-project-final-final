@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="863.0" prefWidth="1218.0" style="-fx-background-color: LightBlue;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.main">
+   <children>
+      <Group fx:id="collisionGroup" layoutX="1.0" layoutY="300.79998779296875" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="251.0" layoutY="401.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="251.0" layoutY="373.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="251.0" layoutY="345.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="251.0" layoutY="318.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="218.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="218.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="149.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="869.0" layoutY="222.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="869.0" layoutY="194.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="869.0" layoutY="167.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="949.0" layoutY="221.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="949.0" layoutY="193.60000610351562" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="949.0" layoutY="166.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="864.0" layoutY="418.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="864.0" layoutY="390.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="864.0" layoutY="362.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="864.0" layoutY="335.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="864.0" layoutY="307.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="475.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="369.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="341.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="314.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="286.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="261.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="233.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="205.60000610351562" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="178.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="782.0" layoutY="150.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="302.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="275.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="247.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="220.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="194.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="167.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="139.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="111.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="83.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="55.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="433.0" layoutY="28.800018310546875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="369.0" layoutY="476.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="397.0" layoutY="476.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="425.0" layoutY="476.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="397.0" layoutY="448.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="425.0" layoutY="448.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="453.0" layoutY="476.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="481.0" layoutY="476.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="509.0" layoutY="476.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="453.0" layoutY="448.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="481.0" layoutY="448.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="509.0" layoutY="448.79998779296875" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="453.0" layoutY="421.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="481.0" layoutY="421.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="509.0" layoutY="421.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="55.0" layoutY="218.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="83.0" layoutY="218.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="111.0" layoutY="218.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="139.0" layoutY="218.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="100.0" layoutY="267.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="128.0" layoutY="267.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="156.0" layoutY="267.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="184.0" layoutY="267.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="461.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="489.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="517.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="545.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="573.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="601.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="629.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="657.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="685.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="713.0" layoutY="330.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="586.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="614.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="642.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="670.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="698.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="726.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="754.0" layoutY="397.60003662109375" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="892.0" layoutY="307.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="920.0" layoutY="307.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="948.0" layoutY="307.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="976.0" layoutY="307.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="810.0" layoutY="150.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="838.0" layoutY="150.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="617.0" layoutY="130.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="645.0" layoutY="130.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="727.0" layoutY="122.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="755.0" layoutY="122.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="495.0" layoutY="147.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="523.0" layoutY="147.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="550.0" layoutY="147.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="699.0" layoutY="122.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="810.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="838.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="754.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="558.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="586.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="614.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="642.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="670.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="698.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="726.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="530.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="502.0" layoutY="266.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="713.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="517.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="545.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="573.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="601.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="629.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="657.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="685.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="489.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="461.0" layoutY="203.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="893.0" layoutY="67.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="921.0" layoutY="67.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="948.0" layoutY="67.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="976.0" layoutY="67.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="1004.0" layoutY="67.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="1060.0" layoutY="42.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="1088.0" layoutY="42.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="1115.0" layoutY="42.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="1143.0" layoutY="42.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="1171.0" layoutY="42.4000244140625" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="58.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="116.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="174.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="232.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="290.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="348.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="406.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="464.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="522.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="580.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="638.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="696.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="754.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="812.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="870.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="928.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="986.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="1044.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="1102.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="272.0" layoutX="1160.0" layoutY="503.20001220703125" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/grassyCobblestone.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Group fx:id="successGroup" AnchorPane.bottomAnchor="519.2000122070312">
+         <ImageView fx:id="winnerdoor" fitHeight="150.0" fitWidth="200.0" layoutX="1116.0" layoutY="193.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="519.2">
+            <image>
+               <Image url="@images/winCond.png" />
+            </image>
+         </ImageView>
+      </Group>
+      <Group fx:id="tempdeath" layoutX="246.0" layoutY="763.0" AnchorPane.bottomAnchor="59.0">
+         <children>
+            <ImageView fitHeight="26.0" fitWidth="34.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="34.0" layoutX="98.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="34.0" layoutX="289.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="41.0" layoutX="605.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="41.0" layoutX="646.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="41.0" layoutX="688.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="41.0" layoutX="729.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="41.0" layoutX="770.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spikes.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Label fx:id="timetext" layoutX="518.0" layoutY="32.0" prefHeight="54.0" prefWidth="233.0" text="Placeholder">
+         <font>
+            <Font name="Yu Gothic Light" size="46.0" />
+         </font>
+      </Label>
+      <Button fx:id="youdiedbutton" layoutX="329.0" layoutY="343.0" mnemonicParsing="false" onMouseClicked="#DeathScreen" prefHeight="147.0" prefWidth="521.0" text="PROCEED." visible="false" />
+      <Button fx:id="startbutton1" layoutX="1066.0" layoutY="442.0" mnemonicParsing="false" onMouseClicked="#Leaderboard" prefHeight="26.0" prefWidth="75.0" textFill="#e5ff55" visible="false" />
+
+   </children>
+</AnchorPane>
